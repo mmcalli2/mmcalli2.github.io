@@ -11,54 +11,57 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D Student (Computer Science), University of Maryland, Baltimore County, 2029 (expected)
+  * Co-advised by Dr. Lara Martin and Dr. Cynthia Matuszek
+* Civilian Cybersecurity Program, Naval Postgraduate School (remote), 2013
+* B.S. in Computer Engineering, University of Kentucky, 2011
 
-Work experience
+Employment
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* June 2014 - Present:
+  * Senior Software Engineer - Datanova Scientific, LLC
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* August 2008 - June 2014
+  * Software Engineer - US Department of Defense
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* January 2011 - May 2011:
+  * Research Assistant - University of Kentucky
+
+Clearance
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Active Top Secret/SCI with full-scope polygraph
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  {% endfor %}</ul> -->
+
+Awards
 ======
-* Currently signed in to 43 different slack teams
+* Presidential Scholarship (Full-tuition)
+  * University of Kentucky, 2006 - 2011
+
+Service
+======
+* AAAI AIxAccessibility Workshop (May 2026), Gallaudet University
+  * Student Volunteer
+
+* EMNLP Wordplay Workshop (September 2025)
+  * Reviewer
+
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/Marcus_McAllister_CV.pdf" class="btn btn--primary">Download CV as PDF</a>
+</div>
