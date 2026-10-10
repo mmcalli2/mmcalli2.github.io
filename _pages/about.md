@@ -27,7 +27,7 @@ Persona-Derived Information Relevance Estimation for Academic Literature Recomme
 ======
 This work focuses on improving the personalization of academic literature discovery. The approach augments existing relevance ranking methods for academic lierature with user personas informed by their domain of interest, publication history, skill proficiencies, and search intent (citation, collaboration, venue selection, etc).
 
-A publication of this research is intended for submission to 21st ACM Conference on Recommender Systems (RECSYS 2027).
+A publication of this research is intended for submission to the 21st ACM Conference on Recommender Systems (RECSYS 2027).
 
 Medical Diagnosis Augmentation via Co-Symptom Identification (Working Title)
 ======
