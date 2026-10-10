@@ -23,7 +23,7 @@ repository               : "mmcalli2.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "MarcusMcAllister.jpg"
   name             : "Marcus McAllister"
   pronouns         : # example: "he/him"
   bio              : "Senior software engineer and PhD student at University of Maryland, Baltimore County.  Research focus is in the intersection of data fusion, information-need discovery, and user modeling."
