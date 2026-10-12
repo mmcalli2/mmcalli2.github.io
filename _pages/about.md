@@ -9,26 +9,26 @@ redirect_from:
 
 Introduction
 ------
-Greetings! I am a Computer Science Ph.D. Student at the University of Maryland, Baltimore County co-advised by Dr. Lara Martin and Dr. Cynthia Matuszek. I am an active member in the Interactive Robotics and Language (IRAL) lab as well as the Language, Aid, and Representation AI (LARA) lab where I collaborate with other members to address human-machine accessibility challenges.
+Greetings! I am a Computer Science Ph.D. Student at the University of Maryland, Baltimore County co-advised by Dr. Lara Martin and Dr. Cynthia Matuszek. I am an active member in the [Interactive Robotics and Language (IRAL) lab](https://iral.cs.umbc.edu) as well as the [Language, Aid, and Representation AI (LARA) lab](https://laramartin.net/lab/) where I collaborate with other members to address human-machine accessibility challenges.
 
-I am also a full-time senior software engineer at Datanova Scientific, LLC where I develop software solutions for use in the US federal government and private sector.
+I am also a full-time senior software engineer at [Datanova Scientific, LLC](https://www.datanovascientific.com/) where I develop software solutions for use in the US federal government and private sector.
 
 Research
 ------
-I have a variety of research interests to include the domains of machine learning, artificial intelligence, natural language processing, robotics, data fusion, semantic web, and recommendation systems.
+I have broad interest in the domains of machine learning, artificial intelligence, natural language processing, robotics, data fusion, semantic web technology, and recommendation systems.
 
-My current research focuses on AI-enhanced personalization of recommendation systems to enable both information-need discovery and improved user experience. Many contemporary information systems categorize their users into a limited number of profile types to deliver information content. This can lead to specific data sources being prioritized over others simply due to broad appeal across all users despite not being relevant for a particular user.
+My current research focuses on AI-enhanced personalization of recommendation systems to enable both information-need discovery and improved user experience. Many contemporary information systems face bandwidth, storage, and processing challenges when deliverying information to users. Often, these systems categorize their users into a limited number of profile types to improve the relevance of information content. However, this can lead to specific data sources being recommended and prioritized over others simply due to broad appeal across all users despite not being relevant for a particular use case. By tailoring results to specific contexts, users can find the information most relevant and appealing for their usage.
 
 Active Projects
 ------
 These are the projects that I am actively engaged with at this time with intent towards publication.
 
-Persona-Derived Information Relevance Estimation for Academic Literature Recommendation Systems
-======
-This work focuses on improving the personalization of academic literature discovery. The approach augments existing relevance ranking methods for academic lierature with user personas informed by their domain of interest, publication history, skill proficiencies, and search intent (citation, collaboration, venue selection, etc).
+{% include base_path %}
 
-A publication of this research is intended for submission to the 21st ACM Conference on Recommender Systems (RECSYS 2027).
+{% assign active_projects = site.projects | where: "status", "active" %}
 
-Medical Diagnosis Augmentation via Co-Symptom Identification (Working Title)
-======
-This is a joint research initiative in collaboration with the University of Massachusetts Amherst to improve patient care and medical diagnoses by identifying discriminatory symptom dyad patterns among medical evaluations. Symptoms that are more informative towards a medical diagnosis are prioritized over more generic symptoms.
+{% if active_projects.size > 0 %}
+{% for post in active_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}

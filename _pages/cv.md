@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D Student (Computer Science), University of Maryland, Baltimore County, 2029 (expected)
-  * Co-advised by Dr. Lara Martin and Dr. Cynthia Matuszek
+  * Co-advised by [Dr. Lara Martin](https://laramartin.net/) and [Dr. Cynthia Matuszek](https://userpages.cs.umbc.edu/cmat/)
 * Civilian Cybersecurity Program, Naval Postgraduate School (remote), 2013
 * B.S. in Computer Engineering, University of Kentucky, 2011
 
@@ -31,10 +31,17 @@ Clearance
 ======
 * Active Top Secret/SCI with full-scope polygraph
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
+  {% endfor %}</ul> -->
+
+Active Projects
+======
+  {% assign active_projects = site.projects | where: "status", "active" %}
+  <ul>{% for post in active_projects %}
+    {% include archive-single-project-cv.html %}
   {% endfor %}</ul>
 
 Talks
