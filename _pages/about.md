@@ -9,7 +9,7 @@ redirect_from:
 
 Introduction
 ------
-Greetings! I am a Computer Science Ph.D. Student at the University of Maryland, Baltimore County co-advised by Dr. Lara Martin and Dr. Cynthia Matuszek. I am an active member in the [Interactive Robotics and Language (IRAL) lab](https://iral.cs.umbc.edu) as well as the [Language, Aid, and Representation AI (LARA) lab](https://laramartin.net/lab/) where I collaborate with other members to address human-machine accessibility challenges.
+Greetings! I am a Computer Science Ph.D. Student at the University of Maryland, Baltimore County co-advised by [Dr. Lara Martin](https://laramartin.net/) and [Dr. Cynthia Matuszek](https://userpages.cs.umbc.edu/cmat/). I am an active member in the [Interactive Robotics and Language (IRAL) lab](https://iral.cs.umbc.edu) as well as the [Language, Aid, and Representation AI (LARA) lab](https://laramartin.net/lab/) where I collaborate with other members to address human-machine accessibility challenges.
 
 I am also a full-time senior software engineer at [Datanova Scientific, LLC](https://www.datanovascientific.com/) where I develop software solutions for use in the US federal government and private sector.
 
