@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D Student (Computer Science), University of Maryland, Baltimore County, 2029 (expected)
+* Ph.D. Student (Computer Science), University of Maryland, Baltimore County, 2029 (expected)
   * Co-advised by [Dr. Lara Martin](https://laramartin.net/) and [Dr. Cynthia Matuszek](https://userpages.cs.umbc.edu/cmat/)
 * Civilian Cybersecurity Program, Naval Postgraduate School (remote), 2013
 * B.S. in Computer Engineering, University of Kentucky, 2011
